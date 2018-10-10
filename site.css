@@ -1,0 +1,49 @@
+body {
+	background-color: green;
+}
+
+.eye {
+    position: absolute;
+    top: 10vh;
+    
+    height: 20vw;
+    width: 20vw;
+    
+    border-radius: 50%;
+    border: 1px solid black;
+/*    background-color: white;*/
+    background: radial-gradient(#ffffff 40%, #ffbbbb);
+    
+/*    transition: transform 0.2s;*/
+}
+
+.iris {
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    
+    height: 50%;
+    width: 50%;
+    
+    background-color: lightcoral;
+    border-radius: 50%;
+}
+
+.pupil {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    
+    height: 20%;
+    width: 20%;
+    
+    background-color: red;
+    border-radius: 50%;
+}
+
+#eye-left {
+    left: 20vw;
+}
+#eye-right {
+    right: 20vw;
+}
