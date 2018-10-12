@@ -38,8 +38,8 @@ function capture(payload) {
         let left = document.getElementById('eye-left');
         let right = document.getElementById('eye-right');
         
-        let left_rotation = 90 - ((percent + LEFT_OFFSET) * 180);
-        let right_rotation = 90 - ((percent + RIGHT_OFFSET) * 180);
+        let left_rotation = ((percent + LEFT_OFFSET) * 180) - 90;
+        let right_rotation = ((percent + RIGHT_OFFSET) * 180) - 90;
         
         left.style.transform = "rotate(" + left_rotation + "deg)";
         right.style.transform = "rotate(" + right_rotation + "deg)";
