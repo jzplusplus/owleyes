@@ -4,10 +4,10 @@ body {
 
 .eye {
     position: absolute;
-    bottom: 30vh;
+    bottom: 27vh;
     
-    height: 20vw;
-    width: 20vw;
+    height: 25vw;
+    width: 25vw;
     
     border-radius: 50%;
     border: 1px solid black;
@@ -42,8 +42,8 @@ body {
 }
 
 #eye-left {
-    left: 20vw;
+    left: 15vw;
 }
 #eye-right {
-    right: 20vw;
+    left: 42vw;
 }
