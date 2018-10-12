@@ -4,7 +4,7 @@ body {
 
 .eye {
     position: absolute;
-    bottom: 27vh;
+    bottom: 25vh;
     
     height: 25vw;
     width: 25vw;
@@ -42,8 +42,8 @@ body {
 }
 
 #eye-left {
-    left: 15vw;
+    left: 13vw;
 }
 #eye-right {
-    left: 42vw;
+    left: 44vw;
 }
