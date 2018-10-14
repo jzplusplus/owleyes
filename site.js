@@ -121,13 +121,14 @@ function button_callback() {
             // check the detection score
             // if it's above the threshold, draw it
             // (the constant 50.0 is empirical: other cascades might require a different one)
-            if(dets[i][3]>50.0)
+            if(dets[i][3]>10.0)
             {
                 ctx.beginPath();
-                ctx.arc(dets[i][1], dets[i][0], dets[i][2]/2, 0, 2*Math.PI, false);
+                ctx.arc(dets[i][1], (480-dets[i][0]), dets[i][2]/2, 0, 2*Math.PI, false);
                 ctx.lineWidth = 3;
                 ctx.strokeStyle = 'red';
                 ctx.stroke();
+                
                 let pos = dets[i][1];
                 let percent = pos/640;
 
