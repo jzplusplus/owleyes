@@ -11,10 +11,7 @@ body {
     
     border-radius: 50%;
     border: 1px solid black;
-/*    background-color: white;*/
     background: radial-gradient(#ffffff 40%, #ffbbbb);
-    
-/*    transition: transform 0.2s;*/
 }
 
 .iris {
